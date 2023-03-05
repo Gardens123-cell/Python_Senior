@@ -29,25 +29,3 @@ print(Person1.get_change())
 
 
 
-# class Human:
-#     def __init__(self,name,age,surname):
-#         self.name = name
-#         self.__age = age
-#         self.surname = surname
-#     def show_info(self):
-#         print("name:",self.name)
-#         print("age:",self.__age)
-#         print("surname:",self.surname)
-#
-#     def get_change(self):
-#         return self.__age
-#     def set_change(self,age):
-#         self.__age = age
-#
-# human = Human("name","age","surname")
-# human.show_info()
-# # print(human.get_change())
-# print(''
-#       '')
-# human.set_change(60)
-# human.show_info()
