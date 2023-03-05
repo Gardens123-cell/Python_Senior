@@ -1,14 +1,4 @@
-# first_input=input('Type Celsius or Fahrenheit: ')
-# if first_input=='Celsius':
-#     print('°C')
-# elif first_input=='Fahrenheit':
-#     print('°F')
-#
-# if first_input=='Celsius':
-#   Celsius1=input('Enter degree in °C: ')
-#
-# elif first_input == 'Fahrenheit':
-#     Celsius1 = input('Enter degree in °F: ')
+
 
 class temp:
     degree =  int(input('1. Type degree in °C: '))
