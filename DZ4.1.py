@@ -1,5 +1,4 @@
 
-
 class temp:
     degree =  int(input('1. Type degree in °C: '))
 
