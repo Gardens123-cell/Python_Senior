@@ -1,30 +1,30 @@
 class Person:
+    quntity = 0
     def __init__(self,age,height,weight):
         self.age = age
-        self.__height = height
+        self.height = height
         self.weight = weight
+        Person.quntity+=1
     def show_info(self):
         print("Age: ",self.age)
-        print("Height: ",self.__height)
+        print("Height: ",self.height)
         print("Weight: ",self.weight)
 
-    def get_change(self):
-        return self.__height
-
-    def set_change(self,age,height,weight):
-            self.age = age
-            self.__height = height
-            self.weight = weight
+    def get_count(self):
+        return Person.quntity
 
 
-Person1 = Person("Mercedes W140","W8",1999)
-Person1.show_info()
 
-# print(car1.get_change())
+Person1 = Person(1,'1cm','1kg')
+Person2 = Person(1,'1cm','1kg')
+Person3 = Person(1,'1cm','1kg')
+Person4 = Person(1,'1cm','1kg')
+
+
+
 print(''
       '')
-Person1.get_change()
-print(Person1.get_change())
+print(Person.get_count(''))
 
 
 
