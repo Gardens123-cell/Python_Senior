@@ -6,7 +6,6 @@ class Student:
     surname = 'Abdulzade'
     age = 18
 
-
     def display_info(self):
         print("Your name is: ",self.name)
         print("Your surname is: ",self.surname)
