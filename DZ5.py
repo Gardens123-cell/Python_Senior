@@ -5,8 +5,11 @@ class numbers:
         self.c = c
         self.d = d
     def show_info(self):
+        print('Max:')
         print(max(self.a,self.b,self.c,self.d))
+        print('Min: ')
         print(min(self.a,self.b,self.c,self.d))
+        print('Mean: ')
         print((self.a + self.b + self.c + self.d)/4)
 
 Num1=int((input('Enter 1st number: ')))
