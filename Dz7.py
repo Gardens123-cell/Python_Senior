@@ -16,7 +16,7 @@ class MyClass:
 
         name=input('Enter name of the student you want to delete: ')
         for stud in self.students_list:
-            if stud.name==name:
+            if stud.name == name:
                 self.students_list.remove(stud)
                 break
 
