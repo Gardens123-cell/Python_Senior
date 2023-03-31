@@ -41,7 +41,7 @@ b.printing()
 b.remove_students(artur)
 
 for stud in b.students_list:
-    print(f'{stud.name}')
+    print(stud.name)
 
 
 
