@@ -1,5 +1,5 @@
 import random
-list = [random.randint(-100,100) for i in range(50)]
+list = [random.randint(-100,100) for i in range(100)]
 print(list)
 
 pos = 0
