@@ -18,7 +18,9 @@ class MyClass:
         for stud in self.students_list:
             if stud.name == name:
                 self.students_list.remove(stud)
+
                 break
+
 
         else:
             print('Error 404 Not Found: Student is not in the class')
@@ -41,7 +43,7 @@ b.printing()
 b.remove_students(artur)
 
 for stud in b.students_list:
-    print(f'{stud.name}')
+    print(stud.name)
 
 
 
