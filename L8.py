@@ -108,9 +108,9 @@
 
 
 
-
-class Human
-    def __init__(self,name,age,avrg):
-        self.name = name
-        self.age = age
-        self.avrg = avrg
+#
+# class Human
+#     def __init__(self,name,age,avrg):
+#         self.name = name
+#         self.age = age
+#         self.avrg = avrg
